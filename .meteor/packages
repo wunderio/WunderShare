@@ -9,9 +9,11 @@ telescope:core
 
 ############ Telescope Packages (Optional) ############
 
+# Note: all following packages depend on telescope:core; Additional internal dependencies are mentioned
+
 telescope:migrations
 telescope:api
-telescope:daily
+telescope:daily # singleday
 telescope:datetimepicker
 telescope:email
 telescope:embedly
@@ -28,7 +30,8 @@ telescope:scoring
 telescope:search
 telescope:share
 telescope:singleday
-telescope:subscribe-to-posts
+# telescope:sitemap
+telescope:subscribe-to-posts # notifications
 telescope:tagline-banner
 telescope:tags
 telescope:theme-base
@@ -37,4 +40,4 @@ telescope:update-prompt
 
 ############ Your Custom Packages ############
 
-# custom
+# my-custom-package
